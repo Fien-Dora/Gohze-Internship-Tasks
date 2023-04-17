@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <body>
+    <div class="container-fluid bg-light pb-5">
+        <div class="d-flex justify-content-between">
+            <div>
+                <button type="button" class="btn btn-outline-none pe-0"><i class="redIcon" data-feather="moon"></i> </button>
+            </div>
+            <div>
+                <nav>
+                    <ul class="pagination align-items-center">
+                        <li class="pe-2"><img class="imagesvg" src="assets/Flag_of_the_United_States.svg" alt=""></li>
+                        <li class="pe-1">English</button>
+                        <li class="pe-3"><img class="imagesvg" src="assets/Icon-notepad.svg" alt=""></li>
+                        <li>
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-none p-0">raoul.dzeoukou@gohze.org</button>
+                                <button type="button" class="btn btn-outline-none dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                </button>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">fiendora@gmail.com</a></li>
+                                <li><a class="dropdown-item" href="#">hello@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+`       <div class="d-flex ps-2">
+           <div class=" pe-2 border-end">
+                <h5>LIST OF ROLES</h5>
+           </div>
+           <div class="ps-3">
+            <i class="redIcon" data-feather="home"> </i>
+           </div>
+        </div>
+
+        <div class="container-fluid mb-4 mt-2">
+            <div class="card border-0 ">
+                <div class="card-body py-2 align-items-center pagination-sm">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between">
+                        <div>
+                            <nav>
+                                <ul class="pagination pagination-sm align-items-center pb-0 mb-0">
+                                    <li class="pe-2">show</li>
+                                    <li class="page-item">
+                                        <select class="form-select pt-0 pb-0" style="height: 28px;"  >
+                                            <option selected>10</option>
+                                            <option value="1">1</option>
+                                            <option value="2">5</option>
+                                            <option value="3">10</option>
+                                        </select>
+                                    </button>
+                                    <li class="ps-2">entries</li>
+                                </ul>
+                              </nav>
+                        </div>
+
+                        <div>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination pagination-danger align-items-center mb-0 pagination-sm">
+                                    <li class="pe-2"> show 11 to 20 of 22 entries</li>
+
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                      <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                  </li>
+                                  <li class="page-item pageItem"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                      <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
+                        </div>
+
+                        <div class=" mb-0">
+                            <nav aria-label="Page navigation example">
+                                <form class="d-flex" role="search">
+                                    <ul class="pagination align-items-center pagination-sm mb-0">
+                                        <li class="pe-2"> 
+                                            <button class="btn btn-outline-none btn-primary btn-sm" type="submit"> <i class="plus" data-feather="plus-circle" style="height: 18px; width: 28px;" ></i>  New</button>
+                                        </li>
+                                        <li class="pe-2"> 
+                                            <button class="btn btn-outline-none btn-danger ms-2 btn-sm" type="submit"> <i class="trash" data-feather="trash-2" style="height: 18px; width: 32px;" ></i> Delete</button>
+                                        </li>
+                                        <li class="pe-2"> 
+                                            <input class="form-control ms-2" type="search" placeholder="Search" aria-label="Search" style="width: 150px; height: 30px;">
+                                        </li>
+                                    </ul>
+                                </form>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="container-fluid">
+            <div class="card border-0">
+                <div class="card-body  ">
+                    <table class="table table-striped ">
+                        <thead>
+                            <tr class="headrow">
+                                <th scope="col">
+                                <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <th scope="col">Action</th>
+                                <th scope="col">Role Name </th>
+                                <th scope="col">Permission</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>ext_menu</td>
+                                <td>menu for external use </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_menu</td>
+                                <td>menu for internal use </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_menu_admin</td>
+                                <td>Lorem ipsum dolor sit amet consectetur. </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_NKA_SBS</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing. </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_menu_admin</td>
+                                <td>Lorem ipsum dolor sit amet consectetur. </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_NKA_SBS</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing. </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_menu_admin</td>
+                                <td>Lorem ipsum dolor sit amet consectetur. </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_NKA_SBS</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing. </td>
+                            </tr>
+
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_menu_admin</td>
+                                <td>Lorem ipsum dolor sit amet consectetur. </td>
+                            </tr>
+
+                            <tr class="table-light">
+                                <th scope="col">
+                                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel">
+                                </th>
+                                <td>
+                                <i class="greenIcon" data-feather="eye"></i> <span class="pe-3"></span> 
+                                <i class="blueIcon" data-feather="edit"></i>  <span class="pe-3"></span> 
+                                <i class="redIcon" data-feather="trash-2"></i>
+                                </td>
+                                <td>int_NKA_SBS</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing. </td>
+                            </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script> feather.replace()</script>
+  </body>
+</html>
