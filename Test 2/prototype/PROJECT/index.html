@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auromatic Lawn Mower</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./assets/traker.jpg" alt="tracker">
+        <span style="padding-left: 12px;"> Mower</span>
+      </div>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><button>Buy Now</button></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section >
+    <div class="showcase">
+      <div class="view">
+        <h3>Automatic Lawn Mowers has saved the problem of time management and less manual work</h3>
+
+        <button class="control"> Control Mower</button>
+      </div>
+      
+  </div>
+    <div class="mowerImg"></div>
+
+  </section>
+
+ 
+  <div class="container">
+    <div class="left">
+      <label> Lets Try</label><br><br>
+      <textarea
+      style="padding: 10px;"
+      id="inp"  name="controls" cols="30" rows="8" placeholder="Enter controls"
+      spellcheck="false"></textarea>
+      
+      <br>
+      <button
+      style="padding: 10px; width: 100px; border-radius: 20px;"
+      onclick="runMower()">
+      Run
+      </button>
+
+      <P id="result1"> </P>
+      <P id="result2"> </P>
+    </div>
+
+    <div id="parent">
+      <div id="child1"></div>
+      <div id="child2"></div>
+    </div>
+  </div>
+
+
+
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>

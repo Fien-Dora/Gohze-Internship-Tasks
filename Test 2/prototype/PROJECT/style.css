@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  min-height: 60px;
+  width: 100%;
+  
+  background:  hsl(220deg 10.71% 10.98%);
+  color: wheat;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.logo img{
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+}
+.navbar ul li{
+  display: inline;
+  padding: 15px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: wheat;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar ul li button{
+padding: 10px;
+width: 140px;
+font-weight: bold;
+font-size: 16px;
+border-radius: 20px;
+border: none;
+background-color: goldenrod;
+}
+.navbar ul li button:hover{
+  color: wheat;
+  cursor: pointer;
+}
+.navbar ul li a:hover{
+  color: goldenrod;
+}
+section {
+ display: flex;
+ justify-content: space-between;
+ min-height: 100vh;
+}
+.showcase {
+  width: 40%;
+  background: hsl(220deg 10.71% 10.98%);
+  color: white;
+}
+.mowerImg{
+  background: url(./assets/mower\ 1.jpg);
+  width: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase .view{
+  position: absolute;
+  width: 500px;
+  height: 100vh;
+  align-items: center;
+  transform: translateY(30%);
+  margin-left: 90px;
+  font-size: 30px;
+  font-weight: 50px;
+  letter-spacing: 2px;
+}
+.showcase button{
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 160px;
+  background: goldenrod;
+  font-size: 17px;
+  font-weight: bold;
+}
+.showcase button:hover{
+  color: wheat;
+}
+.container{
+  background: wheat;
+  padding: 30px;
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.container .left{
+  width: 25%;
+}
+label{
+  font-weight: bold;
+  font-size: 20px;
+}
+.grid {
+  display: flex;   /* <--- required */
+  background: url(./assets/lawn\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+}
+.column {
+  flex: 1; /* <--- required (style column to fill the same space as the other columns) */
+}
+.row {
+  border: 1px solid black;
+  text-align: center;
+}
+#result1, #result2{
+  font-size: 20px;
+  font-weight: bold;
+}
