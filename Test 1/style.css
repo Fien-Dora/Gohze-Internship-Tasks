@@ -1,0 +1,91 @@
+:root{
+    --bs-pagination-border-color: #f3f2d0;
+    --bs-pagination-active-border-color: #f3f2d0;
+    --bs-pagination-color:black;
+
+}
+
+
+body{
+    background: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+}
+.headrow{
+    background: #f3f2d0;
+}
+.midrows{
+    background: #fafafc;
+}
+.button{
+    border-radius: 50%;
+    background: grey;
+}
+
+.redIcon{
+    width: 18px;
+    height: 18px;
+    stroke: red;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.blueIcon{
+    width: 18px;
+    height: 18px;
+    stroke: blue;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.greenIcon{
+    width: 18px;
+    height: 18px;
+    stroke: green;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+.emailLink{
+    color: black;
+    text-decoration: none;
+}
+.pagination{
+    --bs-pagination-active-bg: #dc3545
+    /* --bs-pagination-border-color: #f3f2d0 */
+}
+.pagination{
+    /* --bs-pagination-active-bg: #dc3545 */
+    --bs-pagination-border-color: none
+}
+.pagination{
+    
+    --bs-pagination-color:black;
+    --bs-pagination-active-border-color: none;
+    --bs-pagination-border-color: #fafafc;
+}
+
+.plus{
+    width: 18px;
+    height: 18px;
+    padding-bottom: 2px;
+}
+.trash{
+    width: 18px;
+    height: 18px;
+    padding-bottom: 2px;
+}
+.imagesvg{
+    height: 25px;
+    width: 25px;
+}
+.page-item{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.page-link{
+    border-radius: 50%;
+    
+}
